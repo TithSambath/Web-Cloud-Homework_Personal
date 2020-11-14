@@ -1,0 +1,56 @@
+header .Date {
+    display: inline-block;
+    background-color: #DC505A;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: auto;
+    padding: auto;
+}
+header .Date .Day{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+    padding: auto;
+}
+header .Date .Month{
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    margin-top: 2px;
+    padding: auto;
+}
+h3{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+header{
+    padding-bottom: 10px;
+}
+.paragraph1{
+    color: gray;
+}
+.HighlightBox{
+    border-style: solid;
+    border-color: grey;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-left: 33px;
+    padding: 5px;
+}
+.sentence1{
+    margin-left: 30px;
+}
+.paragraph2{
+    color: gray;
+}
