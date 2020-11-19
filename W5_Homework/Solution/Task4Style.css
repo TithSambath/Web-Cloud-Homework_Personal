@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 50%;
+    color: white;
+}
+header{
+    background-color: #50A3E7;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.container li{
+    list-style: none;
+    background-color: #7E7E7E;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.container li:first-child{
+    background-color: #93BE66;
+    flex-grow: 2;
+}
+.container li:nth-child(2){
+    flex-grow: 1;
+}
+footer{
+    background-color: #50A3E7;
+    padding: 15px;
+    text-align: center;
+}

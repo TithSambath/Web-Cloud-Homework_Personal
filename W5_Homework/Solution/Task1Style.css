@@ -1,0 +1,13 @@
+.middle {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: #489EEA;
+    justify-content: center;
+    align-items: center;
+}
+.middle .inner{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
