@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #57BA9D;
+}
+
+body header {
+  background-color: #323F4F;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  margin: 0 80px;
+}
+
+body header nav ul div {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+body header nav ul div li a {
+  color: white;
+  text-decoration: none;
+}
+
+body header nav ul li {
+  list-style: none;
+  padding: 15px;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+body footer {
+  background-color: white;
+}
+/*# sourceMappingURL=Task6Style.css.map */

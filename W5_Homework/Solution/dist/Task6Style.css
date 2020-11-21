@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  background-color: #57BA9D;
+}
+body header p {
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+}

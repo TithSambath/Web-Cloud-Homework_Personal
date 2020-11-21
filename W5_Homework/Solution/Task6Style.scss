@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #57BA9D;
+    header{
+        background-color: #323F4F;
+        nav{
+            ul{
+                display: flex;
+                margin: 0;
+                padding: 10px;
+                margin: 0 80px;
+                div{
+                    flex-grow: 2;
+                    li{
+                        a{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                li{
+                    list-style: none;
+                    padding: 15px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        background-color: white;
+    }
+}
