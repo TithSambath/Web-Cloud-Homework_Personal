@@ -1,0 +1,23 @@
+.col-sm-12{
+    background-color: #50A3E7;
+    text-align: center;
+    padding: 20px;
+}
+.col-sm-8{
+    background-color: #93BE66;
+    text-align: center;
+    padding: 80px;
+}
+.col-sm-4{
+    background-color: #7E7E7E;
+    text-align: center;
+    padding: 80px;
+}
+main{
+    background-color: black;
+}
+@media only screen and (max-width: 600px) {
+    .row{
+        flex-direction: column-reverse;
+    }
+}

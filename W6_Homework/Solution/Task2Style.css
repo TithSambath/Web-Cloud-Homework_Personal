@@ -1,0 +1,13 @@
+.container .col-4{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    margin: 10px;
+    margin-bottom: 20px;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
