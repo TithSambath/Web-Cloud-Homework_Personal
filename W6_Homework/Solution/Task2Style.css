@@ -1,6 +1,5 @@
-.container .col-4{
+.container .row .col{
     display: flex;
-    justify-content: space-around;
 }
 img{
     margin: 10px;

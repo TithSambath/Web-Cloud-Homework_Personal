@@ -1,0 +1,28 @@
+.container{
+    margin-top: 5px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h6{
+    padding-top: 50px;
+    font-weight: bold;
+}
+p{
+    color: #BABABA;
+}
+img{
+    transition: transform .5s;
+}
+img:hover{
+    transform: scale(1.2);
+}

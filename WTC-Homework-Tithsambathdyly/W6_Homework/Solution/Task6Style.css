@@ -1,0 +1,114 @@
+.row{
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+p{
+    margin: 0;
+    font-weight: lighter;
+}
+h6{
+    margin: 0;
+    font-weight: bold;
+}
+.group1{
+    display: flex;
+    justify-content: center;
+}
+.verticalLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vl{
+    border: 1px solid #E2E1E4;
+    height: 40px;
+}
+.group2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Facebook format card*/
+.f-banner{
+    background-color: #3F5B94;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.f-banner p{
+    text-align: center;
+}
+.fa-facebook-square{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.fa-thumbs-o-up{
+    color: #3F5B94;
+}
+.facebook{
+   color: #3F5B94;
+}
+/*Google plus format card*/
+.fa-google-plus-g{
+    color: #CE5542;
+}
+.g-plus-banner{
+    background-color: #CE5542 ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.g-plus-banner p{
+    text-align: center;
+}
+.google{
+    color: #CE5542;
+}
+.fa-google-plus-square{
+    font-size: 30px;
+    color: white;
+}
+/*Twitter format card*/
+.twitter-banner{
+    background-color: #48A1EA ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.twitter-banner p{
+    text-align: center;
+}
+.fa-twitter-square{
+    font-size: 30px;
+    color: white;
+}
+.fa-twitter{
+    color: #48A1EA;
+}
+.twitter{
+    color: #48A1EA;
+}
+/*Pin format card*/
+.pininterest-banner{
+    background-color: #AD2525;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pininterest-banner p{
+    text-align: center;
+}
+.fa-pinterest-square{
+    font-size: 30px;
+    color: white;
+}
+.fa-pinterest-p{
+    color: #AD2525;
+}
+.pininterest{
+    color: #AD2525;
+}

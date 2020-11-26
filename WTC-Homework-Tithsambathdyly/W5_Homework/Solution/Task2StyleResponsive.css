@@ -1,0 +1,6 @@
+@media only screen and (max-width: 481px){
+    .Menu nav ul {
+        text-align: center;
+        flex-direction: column;
+    }
+}

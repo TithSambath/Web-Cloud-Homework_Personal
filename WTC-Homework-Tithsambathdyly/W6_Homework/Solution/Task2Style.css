@@ -1,0 +1,12 @@
+.container .row .col{
+    display: flex;
+}
+img{
+    margin: 10px;
+    margin-bottom: 20px;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}

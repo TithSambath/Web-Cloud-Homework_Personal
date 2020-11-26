@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 4: Register Form</title>
+    </head>
+    <body>
+        <h2><b>Register Form</b></h2>
+        <form> 
+            <table>
+                <tr>
+                    <td style="width: 20%;"><Label for="email">Email *</Label></td>
+                    <td><input type="email" name = "email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><Label for="password">Password *</Label></td>
+                    <td>
+                        <input type="password" name = "password" id="password" minlength="8" required>
+                        <Label for="confirm password">Confirm Password *</Label>
+                        <input type="password" name = "confirmpassword" id="confirmpassword" minlength="8" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><Label for="phone">Phone *</Label></td>
+                    <td><input type="text" name = "phone" id="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="sex">Sex</label></td>
+                    <td>
+                        <input type="radio" name="sex" id="sex" value="Male">Male 
+                        <input type="radio" name="sex" id="sex" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" name="clear" id="clear" value="Clear">
+                        <input type="submit" name="sex" id="clear" value="Submit">
+                    </td>
+                </tr>
+            </table>    
+        </form>
+    </body>
+</html>

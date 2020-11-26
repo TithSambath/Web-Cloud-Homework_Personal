@@ -1,0 +1,13 @@
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile img{
+    border-radius: 50%;
+}

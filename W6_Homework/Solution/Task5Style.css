@@ -20,3 +20,9 @@ h6{
 p{
     color: #BABABA;
 }
+img{
+    transition: transform .5s;
+}
+img:hover{
+    transform: scale(1.2);
+}

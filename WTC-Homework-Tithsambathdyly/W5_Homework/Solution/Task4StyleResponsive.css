@@ -1,0 +1,15 @@
+@media only screen and (max-width: 481px){
+    div{
+        width: auto;
+    }
+    .container{
+        flex-direction: column-reverse
+    }
+    .container li:first-child{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .container li:nth-child(2){
+        padding: 0;
+    }
+}
