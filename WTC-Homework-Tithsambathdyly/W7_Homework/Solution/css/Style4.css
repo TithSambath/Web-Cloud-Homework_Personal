@@ -1,0 +1,14 @@
+body{
+    background-color: orange;
+    margin: 50px;
+}
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-label-group{
+    display: flex;
+    flex-direction: row;
+}
