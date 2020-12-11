@@ -1,3 +1,5 @@
 <?php
-    require_once("home.html");
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+require_once("Index/home.html");
 ?>

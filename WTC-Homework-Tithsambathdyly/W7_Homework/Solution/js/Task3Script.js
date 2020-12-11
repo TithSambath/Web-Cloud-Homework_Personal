@@ -62,7 +62,7 @@ function sort(){
     let arr = document.getElementById('inputNumber').value;
     arr = filterUserInput(arr.split(','));
     for (let i = 0; i < arr.length;i++){
-        arr[i] = parseInt(arr[i]);
+        arr[i] = parseFloat(arr[i]);
     }
     mergesort(arr,0,arr.length-1);
     document.getElementById('outputResult').value = arr;
