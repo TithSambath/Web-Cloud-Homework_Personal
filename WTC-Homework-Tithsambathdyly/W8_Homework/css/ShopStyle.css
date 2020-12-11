@@ -1,0 +1,39 @@
+.col-md-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    border-collapse: collapse;
+    flex-basis: 20%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: transform .2s;
+}
+.col-md-3:hover{
+    transform: scale(1.2);
+    border-style: hidden;
+}
+.label h5{
+    line-height: 50px;
+    padding: 0;
+    padding-top: 20px;
+}
+.label{
+    padding: 0;
+}
+/*Test*/
+.test{
+    width: 150px;
+    height: 166px;
+}
+.fa-shopping-bag{
+    color: orange;
+    font-size: 18px;
+}
+.fa-tags{
+    color: orange;
+}

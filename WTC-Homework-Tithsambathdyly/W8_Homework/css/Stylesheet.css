@@ -1,0 +1,49 @@
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: orange;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-basis: 26%;
+    margin-bottom: 50px;
+}
+h5{
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.btn .btn-primary .btn-sm{
+    border-color: red;
+}
+.col-md-4 input{
+    width: 3em;
+    height: 1.5em;
+}
+.payment h6{
+    text-align: center;
+}
+.pInfo{
+    text-align: center;
+}
+.fa-shopping-bag{
+    color: orange;
+    font-size: 18px;
+}
+.fa-tags{
+    color: orange;
+}
+.container #TotalPayment{
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+    background-color: orange;
+}
