@@ -11,10 +11,10 @@
     flex-basis: 20%;
     padding-top: 25px;
     padding-bottom: 25px;
-    transition: transform .2s;
+    transition: transform .5s;
 }
 .col-md-3:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     border-style: hidden;
 }
 .label h5{
